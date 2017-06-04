@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="viewController_stackView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="i9n-bZ-fIw">
+                                <rect key="frame" x="20" y="20" width="374" height="569.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="qqK-HV-VCR">
+                                        <rect key="frame" x="0.0" y="0.0" width="254" height="569.66666666666663"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batman" translatesAutoresizingMaskIntoConstraints="NO" id="ZLY-0o-QBT">
+                                                <rect key="frame" x="0.0" y="0.0" width="143" height="212"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="212" id="CzI-J1-kAw"/>
+                                                    <constraint firstAttribute="width" constant="143" id="b4W-Rk-eYS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dark Knight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ca7-oI-YuS">
+                                                <rect key="frame" x="0.0" y="212" width="124" height="20.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sinopsis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0g-J6-iA1">
+                                                <rect key="frame" x="0.0" y="232.33333333333331" width="75" height="20.333333333333343"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="ovF-OH-ObE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jLh-n5-BJr">
+                                                <rect key="frame" x="0.0" y="252.66666666666669" width="222" height="129"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="129" id="Rpn-WD-amP"/>
+                                                    <constraint firstAttribute="width" constant="222" id="tvE-6w-okJ"/>
+                                                </constraints>
+                                                <mutableString key="text">Berlatar waktu satu tahun setelah kejadian Batman Begins, Batman, Letnan James Gordon, dan jaksa wilayah baru Harvey Dent berhasil mulai mengumpulkan para penjahat yang mengganggu Kota Gotham sampai seorang dalang kriminal misterius dan sadis yang hanya dikenal sebagai Joker yang muncul di Gotham, Menciptakan gelombang kekacauan baru. Perjuangan Batman melawan Joker menjadi sangat pribadi, memaksanya untuk "menghadapi semua yang dia percaya" dan memperbaiki teknologinya untuk menghentikannya. Sebuah segitiga cinta berkembang antara Bruce Wayne, Dent dan Rachel Dawes.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBY-Be-FUL">
+                                                <rect key="frame" x="0.0" y="381.66666666666669" width="124" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="eg6-co-vgE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Tampilkan Pemain"/>
+                                                <connections>
+                                                    <action selector="actorActress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t08-uk-0lL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szg-VC-yRS">
+                                                <rect key="frame" x="0.0" y="411.66666666666669" width="180" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="YrL-9s-O1H"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" title="Tampilkan Film Terkait"/>
+                                                <connections>
+                                                    <action selector="relatedMovie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTO-uk-vx4"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="Vjo-7I-SOG">
+                                                <rect key="frame" x="0.0" y="441.66666666666663" width="254" height="127.99999999999989"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tbd-Dw-bMr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="254" height="127.99999999999994"/>
+                                                        <subviews>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="harryPotter" translatesAutoresizingMaskIntoConstraints="NO" id="vsT-lF-9xK">
+                                                                <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="127.99999999999994"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="128" id="KPj-He-xVp"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="hangover" translatesAutoresizingMaskIntoConstraints="NO" id="evV-im-4It">
+                                                                <rect key="frame" x="84.666666666666657" y="0.0" width="84.666666666666657" height="127.99999999999994"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="128" id="oM3-Dp-DFw"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="belko_" translatesAutoresizingMaskIntoConstraints="NO" id="EvR-81-HJW">
+                                                                <rect key="frame" x="169.33333333333337" y="0.0" width="84.666666666666657" height="127.99999999999994"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="128" id="Bjr-Q5-NIr"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="tbd-Dw-bMr" firstAttribute="top" secondItem="Vjo-7I-SOG" secondAttribute="top" id="J1J-Lq-Vca"/>
+                                                    <constraint firstItem="tbd-Dw-bMr" firstAttribute="leading" secondItem="Vjo-7I-SOG" secondAttribute="leading" id="hcc-zQ-4cX"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tbd-Dw-bMr" secondAttribute="trailing" id="kRW-ms-gu9"/>
+                                                    <constraint firstAttribute="bottom" secondItem="tbd-Dw-bMr" secondAttribute="bottom" id="kdl-XH-FQm"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ZLY-0o-QBT" firstAttribute="leading" secondItem="qqK-HV-VCR" secondAttribute="leading" id="EC4-Rq-rfM"/>
+                                            <constraint firstItem="jLh-n5-BJr" firstAttribute="leading" secondItem="qqK-HV-VCR" secondAttribute="leading" id="aTT-Qg-OAm"/>
+                                            <constraint firstItem="Szg-VC-yRS" firstAttribute="leading" secondItem="qqK-HV-VCR" secondAttribute="leading" id="fgW-6f-15N"/>
+                                            <constraint firstItem="h0g-J6-iA1" firstAttribute="leading" secondItem="qqK-HV-VCR" secondAttribute="leading" id="jU7-gg-jHn"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmw-An-37S">
+                                        <rect key="frame" x="254" y="0.0" width="120" height="480"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WF8-8e-7FW">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="480"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChristianBale" translatesAutoresizingMaskIntoConstraints="NO" id="aOJ-Ev-XlY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="CRV-TT-HRL"/>
+                                                            <constraint firstAttribute="height" constant="120" id="yN7-1z-XVg"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GaryOldman" translatesAutoresizingMaskIntoConstraints="NO" id="oXb-zG-ez4">
+                                                        <rect key="frame" x="0.0" y="120" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="126-uo-vHp"/>
+                                                            <constraint firstAttribute="width" constant="120" id="tce-oC-onV"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AaronEckhart" translatesAutoresizingMaskIntoConstraints="NO" id="Bkn-hP-19h">
+                                                        <rect key="frame" x="0.0" y="240" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="Qi6-Av-rD1"/>
+                                                            <constraint firstAttribute="width" constant="120" id="d1i-L5-xaO"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HeathLedger" translatesAutoresizingMaskIntoConstraints="NO" id="ya6-Tm-DXt">
+                                                        <rect key="frame" x="0.0" y="360" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="A5j-en-Cfi"/>
+                                                            <constraint firstAttribute="width" constant="120" id="GNe-yX-WD3"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="480" id="6yU-F8-ePx"/>
+                                                    <constraint firstAttribute="width" constant="120" id="lAK-Iu-vBo"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="WF8-8e-7FW" firstAttribute="top" secondItem="gmw-An-37S" secondAttribute="top" id="2JF-c5-ScA"/>
+                                            <constraint firstAttribute="trailing" secondItem="WF8-8e-7FW" secondAttribute="trailing" id="N8X-Vs-Y76"/>
+                                            <constraint firstItem="WF8-8e-7FW" firstAttribute="leading" secondItem="gmw-An-37S" secondAttribute="leading" id="qyc-ey-64r"/>
+                                            <constraint firstItem="WF8-8e-7FW" firstAttribute="centerY" secondItem="gmw-An-37S" secondAttribute="centerY" id="waU-3m-nc3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i9n-bZ-fIw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Zav-mf-EeP"/>
+                            <constraint firstItem="i9n-bZ-fIw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="l9f-dK-sxG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="i9n-bZ-fIw" secondAttribute="bottom" constant="146.33000000000001" id="sf2-tN-XSj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i9n-bZ-fIw" secondAttribute="trailing" id="yEv-jG-ggn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fotoPemain1" destination="aOJ-Ev-XlY" id="hiL-jU-pJL"/>
+                        <outlet property="fotoPemain2" destination="oXb-zG-ez4" id="axH-9L-eFH"/>
+                        <outlet property="fotoPemain3" destination="Bkn-hP-19h" id="KhX-Ya-AeR"/>
+                        <outlet property="fotoPemain4" destination="ya6-Tm-DXt" id="imd-3a-Gvh"/>
+                        <outlet property="label_Judul" destination="ca7-oI-YuS" id="wPT-Qg-5jG"/>
+                        <outlet property="label_sinopsis" destination="h0g-J6-iA1" id="Ngd-aK-Rif"/>
+                        <outlet property="posterRelated1" destination="vsT-lF-9xK" id="SPO-GV-4OQ"/>
+                        <outlet property="posterRelated2" destination="evV-im-4It" id="TkA-Lu-DwX"/>
+                        <outlet property="posterRelated3" destination="EvR-81-HJW" id="kxU-Is-638"/>
+                        <outlet property="posterUtama" destination="ZLY-0o-QBT" id="JvW-cR-IjO"/>
+                        <outlet property="stackViewDataFilm" destination="qqK-HV-VCR" id="bXF-Sr-eWf"/>
+                        <outlet property="stackViewUtama" destination="i9n-bZ-fIw" id="4Lx-6n-K86"/>
+                        <outlet property="stackView_Pemain" destination="WF8-8e-7FW" id="38N-Yb-4oo"/>
+                        <outlet property="stackView_Related" destination="tbd-Dw-bMr" id="2Nz-Pl-NET"/>
+                        <outlet property="textView_sinopsis" destination="jLh-n5-BJr" id="16N-Tt-4gP"/>
+                        <outlet property="view_Pemain" destination="gmw-An-37S" id="85J-lw-9sd"/>
+                        <outlet property="view_Related" destination="Vjo-7I-SOG" id="TI9-3x-oNm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.710144927536234" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AaronEckhart" width="95" height="95"/>
+        <image name="ChristianBale" width="221" height="221"/>
+        <image name="GaryOldman" width="226" height="226"/>
+        <image name="HeathLedger" width="89" height="89"/>
+        <image name="batman" width="666" height="987"/>
+        <image name="belko_" width="675" height="1000"/>
+        <image name="hangover" width="173" height="268"/>
+        <image name="harryPotter" width="648" height="960"/>
+    </resources>
+</document>
