@@ -194,17 +194,20 @@
 					CF0B225E1EE2FD1E0077D453 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					CF0B22721EE2FD1F0077D453 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF0B225E1EE2FD1E0077D453;
 					};
 					CF0B227D1EE2FD1F0077D453 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF0B225E1EE2FD1E0077D453;
 					};
@@ -420,7 +423,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -433,7 +437,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -447,7 +452,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_stackView.app/viewController_stackView";
 			};
 			name = Debug;
@@ -462,7 +468,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackViewTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewController_stackView.app/viewController_stackView";
 			};
 			name = Release;
@@ -476,7 +483,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_stackView;
 			};
 			name = Debug;
@@ -490,7 +498,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luthfifathurrahman.viewController-stackViewUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = viewController_stackView;
 			};
 			name = Release;
@@ -514,6 +523,7 @@
 				CF0B22891EE2FD1F0077D453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0B228A1EE2FD1F0077D453 /* Build configuration list for PBXNativeTarget "viewController_stackViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +532,7 @@
 				CF0B228C1EE2FD1F0077D453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF0B228D1EE2FD1F0077D453 /* Build configuration list for PBXNativeTarget "viewController_stackViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +541,7 @@
 				CF0B228F1EE2FD1F0077D453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
